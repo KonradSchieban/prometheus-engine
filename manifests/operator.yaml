@@ -295,9 +295,7 @@ spec:
         key: "kubernetes.io/arch"
         operator: "Equal"
       securityContext:
-        runAsGroup: 1000670001
         runAsNonRoot: true
-        runAsUser: 1000670001
         seccompProfile:
           type: RuntimeDefault
 ---
@@ -692,9 +690,7 @@ spec:
         key: "kubernetes.io/arch"
         operator: "Equal"
       securityContext:
-        runAsGroup: 1000670001
         runAsNonRoot: true
-        runAsUser: 1000670001
         seccompProfile:
           type: RuntimeDefault
 ---
@@ -856,9 +852,7 @@ spec:
         key: "kubernetes.io/arch"
         operator: "Equal"
       securityContext:
-        runAsGroup: 1000670001
         runAsNonRoot: true
-        runAsUser: 1000670001
         seccompProfile:
           type: RuntimeDefault
 ---
@@ -1013,9 +1007,7 @@ spec:
         key: "kubernetes.io/arch"
         operator: "Equal"
       securityContext:
-        runAsGroup: 1000670001
         runAsNonRoot: true
-        runAsUser: 1000670001
         seccompProfile:
           type: RuntimeDefault
   serviceName: alertmanager
